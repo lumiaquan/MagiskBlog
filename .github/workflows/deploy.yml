@@ -13,9 +13,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+      - run: npm i yarn -g
 
       - name: Build
-        run: npm run docs:build
+        run: yarn docs:build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
