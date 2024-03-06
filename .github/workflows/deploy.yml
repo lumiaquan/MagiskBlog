@@ -12,12 +12,10 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
-      - run: npm i pnpm -g
-      - run: pnpm install --lockfile-false
+          node-version: 18
 
       - name: Build
-        run: pnpm docs:build
+        run: npm docs:build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
