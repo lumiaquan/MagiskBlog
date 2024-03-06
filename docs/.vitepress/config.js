@@ -1,11 +1,12 @@
 module.exports = {
   title: 'Magsik Blog',
-  description: 'First create a blog',
+  description: 'dq的个人博客',
   markdown: {
     lineNumbers: true,
     toc: true,
     anchor: true,
   },
+  base: '/blog/',
   themeConfig: {
     logo: 'https://s4.aconvert.com/convert/p3r68-cdx67/aqv6j-ss7ry.svg',
     // siteTitle: false

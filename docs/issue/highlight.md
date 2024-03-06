@@ -95,7 +95,7 @@ export default {
 
 - 依赖 dep.js
 
-```javascript
+```js
 import 'codemirror/lib/codemirror.css'
 import 'codemirror/theme/material.css'
 import 'codemirror/keymap/sublime' // sublime编辑器效果
