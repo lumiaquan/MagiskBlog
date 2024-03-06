@@ -11,29 +11,46 @@ module.exports = {
     // siteTitle: false
     nav: [
       { text: '笔记', link: '/notes/', activeMatch: '/notes/' },
-      { text: '分类', link: '/category/', activeMatch: '/category/' },
+      { text: '业务相关', link: '/issue/', activeMatch: '/issue/' },
       { text: 'Github', link: 'https://github.com/lumiaquan' }
     ],
+    docFooter: { prev: '上一篇', next: '下一篇' },
     sidebar: {
       '/notes/': [
+        {
+          text: 'html',
+          link: '/notes/html'
+        },
         {
           text: 'vue',
           link: '/notes/vue'
         }
       ],
-      '/category/': [
+      '/issue/': [
         {
           text: '开发遇到的问题',
           collapsible: true,
           collapsed: false,
           items: [
             {
-              text: 'small issue',
-              link: '/category/smallIssue'
+              text: 'el-cascader-panel 通过js手动选中、取消选中节点',
+              link: '/issue/cascader-panel'
             },
             {
-              text: 'big issue',
-              link: '/category/bigIssue'
+              text: '使用 Fuse.js 实现前端模糊搜索',
+              link: '/issue/fuse'
+            },
+            {
+              text: '拼音模糊搜索组件pinyinmatch',
+              link: '/issue/pinyin'
+            },
+            {
+              text: '高亮代码块',
+              link: '/issue/highlight'
+            },
+            {
+              text: '埋点',
+              link: '/issue/buried-point'
             }
           ]
         }

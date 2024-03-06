@@ -1,7 +1,7 @@
 # 笔记
 [[toc]]
 
-### 普通内容content
+### 普通内容content <Badge type="info" text="默认" />
 
 
 '# Hello VitePress' 
@@ -61,9 +61,7 @@ export default { // Highlighted
   }
 }
 ```
----
-lastUpdated: true
----
+
 
 
 跳转内容位置

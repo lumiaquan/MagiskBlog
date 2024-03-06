@@ -1,5 +1,8 @@
 <template>
-  hhh
+  MagiskQ
+  <a href="/notes/" class="go-inside">
+    get start
+  </a>
 </template>
 
 <script setup>
