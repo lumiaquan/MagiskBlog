@@ -6,7 +6,7 @@ module.exports = {
     toc: true,
     anchor: true,
   },
-  base: '/MagiskBlog/',
+  base: '/MagisikBlog/',
   themeConfig: {
     logo: 'https://s4.aconvert.com/convert/p3r68-cdx67/aqv6j-ss7ry.svg',
     // siteTitle: false
