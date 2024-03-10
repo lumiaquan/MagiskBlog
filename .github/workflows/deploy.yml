@@ -38,14 +38,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: yarn
+          cache: npm
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: yarn install
+        run: npm ci
       - name: Build with VitePress
         run: |
-          yarn docs:build
+          npm run docs:build
           touch docs/.vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
