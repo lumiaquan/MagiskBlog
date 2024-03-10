@@ -6,7 +6,7 @@ module.exports = {
     toc: true,
     anchor: true,
   },
-  base: '/MagisikBlog/',
+  base: '/MagiskBlog/',
   themeConfig: {
     logo: 'https://s4.aconvert.com/convert/p3r68-cdx67/aqv6j-ss7ry.svg',
     // siteTitle: false
@@ -20,11 +20,11 @@ module.exports = {
       '/notes/': [
         {
           text: 'html',
-          link: '/notes/html'
+          link: '/MagiskBlog/notes/html'
         },
         {
           text: 'vue',
-          link: '/notes/vue'
+          link: '/MagiskBlog/notes/vue'
         }
       ],
       '/issue/': [
@@ -35,23 +35,23 @@ module.exports = {
           items: [
             {
               text: 'el-cascader-panel 通过js手动选中、取消选中节点',
-              link: '/issue/cascader-panel'
+              link: '/MagiskBlog/issue/cascader-panel'
             },
             {
               text: '使用 Fuse.js 实现前端模糊搜索',
-              link: '/issue/fuse'
+              link: '/MagiskBlog/issue/fuse'
             },
             {
               text: '拼音模糊搜索组件pinyinmatch',
-              link: '/issue/pinyin'
+              link: '/MagiskBlog/issue/pinyin'
             },
             {
               text: '高亮代码块',
-              link: '/issue/highlight'
+              link: '/MagiskBlog/issue/highlight'
             },
             {
               text: '埋点',
-              link: '/issue/buried-point'
+              link: '/MagiskBlog/issue/buried-point'
             }
           ]
         }
