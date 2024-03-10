@@ -11,8 +11,8 @@ module.exports = {
     logo: 'https://s4.aconvert.com/convert/p3r68-cdx67/aqv6j-ss7ry.svg',
     // siteTitle: false
     nav: [
-      { text: '笔记', link: '/notes/', activeMatch: '/notes/' },
-      { text: '业务相关', link: '/issue/', activeMatch: '/issue/' },
+      { text: '笔记', link: '/MagiskBlog/notes/', activeMatch: '/notes/' },
+      { text: '业务相关', link: '/MagiskBlog/issue/', activeMatch: '/issue/' },
       { text: 'Github', link: 'https://github.com/lumiaquan' }
     ],
     docFooter: { prev: '上一篇', next: '下一篇' },

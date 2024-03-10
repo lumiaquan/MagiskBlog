@@ -1,6 +1,6 @@
 <template>
   MagiskQ
-  <a href="/notes/" class="go-inside">
+  <a href="/MagiskBlog/notes/" class="go-inside">
     get start
   </a>
 </template>
