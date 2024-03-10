@@ -11,8 +11,8 @@ module.exports = {
     logo: 'https://s4.aconvert.com/convert/p3r68-cdx67/aqv6j-ss7ry.svg',
     // siteTitle: false
     nav: [
-      { text: '笔记', link: '/MagiskBlog/notes/', activeMatch: '/notes/' },
-      { text: '业务相关', link: '/MagiskBlog/issue/', activeMatch: '/issue/' },
+      { text: '笔记', link: '/notes/', activeMatch: '/notes/' },
+      { text: '业务相关', link: '/issue/', activeMatch: '/issue/' },
       { text: 'Github', link: 'https://github.com/lumiaquan' }
     ],
     docFooter: { prev: '上一篇', next: '下一篇' },
@@ -20,11 +20,11 @@ module.exports = {
       '/notes/': [
         {
           text: 'html',
-          link: '/MagiskBlog/notes/html'
+          link: '/notes/html'
         },
         {
           text: 'vue',
-          link: '/MagiskBlog/notes/vue'
+          link: '/notes/vue'
         }
       ],
       '/issue/': [
@@ -35,23 +35,23 @@ module.exports = {
           items: [
             {
               text: 'el-cascader-panel 通过js手动选中、取消选中节点',
-              link: '/MagiskBlog/issue/cascader-panel'
+              link: '/issue/cascader-panel'
             },
             {
               text: '使用 Fuse.js 实现前端模糊搜索',
-              link: '/MagiskBlog/issue/fuse'
+              link: '/issue/fuse'
             },
             {
               text: '拼音模糊搜索组件pinyinmatch',
-              link: '/MagiskBlog/issue/pinyin'
+              link: '/issue/pinyin'
             },
             {
               text: '高亮代码块',
-              link: '/MagiskBlog/issue/highlight'
+              link: '/issue/highlight'
             },
             {
               text: '埋点',
-              link: '/MagiskBlog/issue/buried-point'
+              link: '/issue/buried-point'
             }
           ]
         }
