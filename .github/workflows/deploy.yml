@@ -1,5 +1,7 @@
 name: Deploy
 
+token: ${{ secrets.ACCESS_TOKEN }} # Settings > Secret 建立的 ACCESS_TOKEN
+
 on:
   push:
     branches:
