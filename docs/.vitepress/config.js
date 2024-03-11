@@ -25,6 +25,17 @@ module.exports = {
         {
           text: 'vue',
           link: '/notes/vue'
+        },
+        {
+          text: 'javascript',
+          collapsible: true,
+          collapsed: false,
+          items: [
+            {
+              text: '通过路径修改对象的值',
+              link: '/notes/javascript/set-value-by-path'
+            }
+          ]
         }
       ],
       '/issue/': [
