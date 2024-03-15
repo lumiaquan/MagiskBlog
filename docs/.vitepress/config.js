@@ -34,6 +34,10 @@ module.exports = {
             {
               text: '通过路径修改对象的值',
               link: '/notes/javascript/set-value-by-path'
+            },
+            {
+              text: 'js实用技巧',
+              link: '/notes/javascript/js技巧'
             }
           ]
         }
