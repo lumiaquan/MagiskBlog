@@ -8,6 +8,9 @@ module.exports = {
   },
   base: '/MagiskBlog/',
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     logo: '/logo.png',
     siteTitle: false,
     socialLinks: [
@@ -55,8 +58,16 @@ module.exports = {
           collapsed: false,
           items: [
             {
-              text: 'el-cascader-panel 通过js手动选中、取消选中节点',
-              link: '/issue/cascader-panel'
+              text: '高亮代码块',
+              link: '/issue/highlight'
+            },
+            {
+              text: '埋点',
+              link: '/issue/buried-point'
+            },
+            {
+              text: '最后一行ellipsis',
+              link: '/issue/multiple-line-ellipsis'
             },
             {
               text: '使用 Fuse.js 实现前端模糊搜索',
@@ -67,12 +78,8 @@ module.exports = {
               link: '/issue/pinyin'
             },
             {
-              text: '高亮代码块',
-              link: '/issue/highlight'
-            },
-            {
-              text: '埋点',
-              link: '/issue/buried-point'
+              text: 'el-cascader-panel 通过js手动选中、取消选中节点',
+              link: '/issue/cascader-panel'
             }
           ]
         }
