@@ -5,15 +5,15 @@
 :::
 
 两种常见的方法是：
-1. object.path1.path2 = newValue
-2. object[path1][path2] = newValue 
+1. `object.path1.path2 = newValue`
+2. `object[path1][path2] = newValue`
 
 ::: warning 风险提示
 当路径的长度不确定，而且路径是动态的时候，这两种方法就不适用了。在这种情况下，我们需要一个更通用的方法来解决这个问题。
 :::
 
-1. 如果需要被修改的对象是obj: {a:{b:{c:1}}},需要修改的是c的值，即我们拿到对象b就可以完成修改 
-2. 沿着这个思路，我们可以通过使用reduce方法来实现这个功能
+1. 如果需要被修改的对象是`obj: {a:{b:{c:1}}}`,需要修改的是c的值，即我们拿到对象b就可以完成修改 
+2. 沿着这个思路，我们可以通过使用`reduce`方法来实现这个功能
 
 ```javascript
 /**

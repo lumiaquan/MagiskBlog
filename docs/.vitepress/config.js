@@ -8,24 +8,18 @@ module.exports = {
   },
   base: '/MagiskBlog/',
   themeConfig: {
-    logo: 'https://s4.aconvert.com/convert/p3r68-cdx67/aqv6j-ss7ry.svg',
-    // siteTitle: false
+    logo: '/logo.png',
+    siteTitle: false,
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/lumiaquan' },
+    ],
     nav: [
       { text: '笔记', link: '/notes/', activeMatch: '/notes/' },
-      { text: '业务相关', link: '/issue/', activeMatch: '/issue/' },
-      { text: 'Github', link: 'https://github.com/lumiaquan' }
+      { text: '业务相关', link: '/issue/', activeMatch: '/issue/' }
     ],
     docFooter: { prev: '上一篇', next: '下一篇' },
     sidebar: {
       '/notes/': [
-        {
-          text: 'html',
-          link: '/notes/html'
-        },
-        {
-          text: 'vue',
-          link: '/notes/vue'
-        },
         {
           text: 'javascript',
           collapsible: true,
@@ -38,8 +32,20 @@ module.exports = {
             {
               text: 'js实用技巧',
               link: '/notes/javascript/js技巧'
+            },
+            {
+              text: '在代码如何减少if-else的使用',
+              link: '/notes/javascript/less-if-else'
             }
           ]
+        },
+        {
+          text: 'html',
+          link: '/notes/html'
+        },
+        {
+          text: 'vue',
+          link: '/notes/vue'
         }
       ],
       '/issue/': [
