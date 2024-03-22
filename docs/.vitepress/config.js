@@ -37,6 +37,10 @@ module.exports = {
               link: '/notes/javascript/js技巧'
             },
             {
+              text: '手写一个简易计算器',
+              link: '/notes/javascript/calculator'
+            },
+            {
               text: '在代码如何减少if-else的使用',
               link: '/notes/javascript/less-if-else'
             }
