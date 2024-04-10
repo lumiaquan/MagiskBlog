@@ -47,6 +47,21 @@ module.exports = {
           ]
         },
         {
+          text: '手写JS',
+          collapsible: true,
+          collapsed: false,
+          items: [
+            {
+              text: 'Observer',
+              link: '/notes/手写JS/Observer'
+            },
+          ]
+        },
+        {
+          text: 'css',
+          link: '/notes/css'
+        },
+        {
           text: 'html',
           link: '/notes/html'
         },
