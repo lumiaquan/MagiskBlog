@@ -58,6 +58,17 @@ module.exports = {
           ]
         },
         {
+          text: 'webpack4打包优化',
+          collapsible: true,
+          collapsed: false,
+          items: [
+            {
+              text: 'hard-source-webpack-plugin',
+              link: '/notes/webpack4打包优化/compile'
+            },
+          ]
+        },
+        {
           text: 'css',
           link: '/notes/css'
         },
