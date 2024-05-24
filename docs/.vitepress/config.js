@@ -58,6 +58,17 @@ module.exports = {
           ]
         },
         {
+          text: 'Vue3',
+          collapsible: true,
+          collapsed: false,
+          items: [
+            {
+              text: 'defineModel',
+              link: '/notes/vue3/defineModel'
+            },
+          ]
+        },
+        {
           text: 'webpack4打包优化',
           collapsible: true,
           collapsed: false,
