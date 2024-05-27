@@ -121,6 +121,10 @@ module.exports = {
             {
               text: 'el-cascader-panel 通过js手动选中、取消选中节点',
               link: '/issue/cascader-panel'
+            },
+            {
+              text: 'el-cascader-panel节点渲染优化',
+              link: '/issue/cascader-panel-node'
             }
           ]
         }
