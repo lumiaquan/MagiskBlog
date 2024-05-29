@@ -85,6 +85,10 @@ module.exports = {
               text: 'externals',
               link: '/notes/webpack4打包优化/externals'
             },
+            {
+              text: 'style-resources-loader',
+              link: '/notes/webpack4打包优化/style-resources-loader'
+            },
           ]
         },
         {
