@@ -77,6 +77,10 @@ module.exports = {
               text: 'hard-source-webpack-plugin',
               link: '/notes/webpack4打包优化/compile'
             },
+            {
+              text: 'externals',
+              link: '/notes/webpack4打包优化/externals'
+            },
           ]
         },
         {
