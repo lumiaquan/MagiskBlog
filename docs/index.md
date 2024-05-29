@@ -15,4 +15,8 @@ hero:
     - theme: alt
       text: View on GitHub
       link: https://github.com/lumiaquan/MagiskBlog
+features:
+  - icon: '🌞'
+    title: Simple and efficient, always.
+    details: 记录前端开发中的一些知识点，方便查阅。
 ---
