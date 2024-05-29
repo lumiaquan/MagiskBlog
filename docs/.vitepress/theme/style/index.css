@@ -1,1 +1,25 @@
 @import "var.css";
+
+.VPHome {
+    .main {
+        .name {
+            .clip {
+                background: -webkit-linear-gradient(120deg, #fed634 30%, #41ff84) !important;
+                -webkit-background-clip: text !important;
+                -webkit-text-fill-color: transparent !important;
+            }
+        }
+    }
+    .image-bg {
+        background-image: -webkit-linear-gradient(-45deg, #bd34fe 50%, #47caff 50%) !important;
+        filter: blur(72px) !important;
+        transform: translate(-50%, -50%) !important;
+    }
+    .actions {
+        .action:first-child {
+            .VPButton{
+                background-color: #39e071 !important;
+            }
+        }
+    }
+}
